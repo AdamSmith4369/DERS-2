@@ -1,0 +1,121 @@
+/*! NAVBAR    */
+.navbar {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+a.nav-link {
+  color: black;
+}
+a.nav-link:hover {
+  color: #dc3545;
+  transition: all 0.3s;
+}
+
+.carousel-item h5 {
+  color: #dc3545;
+  font-size: 2.5rem;
+  text-shadow: 3px 3px 3px black;
+}
+
+/* ! CAROUSEL     */
+
+.carousel-item {
+  max-height: calc(100vh - 90px);
+}
+.carousel-item p {
+  text-shadow: 3px 3px 3px black;
+  font-weight: 600;
+}
+
+.carousel-item .btn {
+  width: 8rem;
+  margin-bottom: 1rem;
+}
+
+.carousel-indicators button {
+  background-color: #dc3545 !important;
+  height: 0.4rem !important ;
+  width: 3rem !important;
+  margin-right: 0.5rem !important;
+}
+
+.carousel-caption {
+  bottom: 3rem;
+}
+
+/*! INSTRUCTOR */
+
+section#instructors .card {
+  transition: transform 0.5s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+section#instructors .socials {
+  transition: opacity 0.5s;
+}
+
+section#instructors .socials i:hover {
+  opacity: 0.5;
+}
+
+section#students img {
+  max-width: 400px;
+  min-width: 250px;
+}
+
+#btn-s {
+  border: none;
+  border-radius: 20px;
+  padding: 1rem 1.5rem;
+}
+
+#textarea {
+  resize: none;
+}
+
+footer i {
+  font-size: 2rem;
+  color: white;
+  margin-right: 0.8rem;
+  transition: color 1s;
+}
+
+footer i:hover {
+  color: #dc3545;
+}
+section#courses .nav-link.active {
+  background-color: #dc3545;
+}
+section#courses .nav-link {
+  color: white;
+}
+
+.aaa {
+  text-decoration: none;
+}
+
+.up {
+  color: white;
+  position: fixed;
+  bottom: 2rem;
+  right: 1rem;
+  background-color: red;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: white;
+}
+
+.up:hover {
+  color: black;
+}
